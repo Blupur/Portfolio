@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Sets the background color */
+    background-color: #ffffff;
+}
+
+/* Header information */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: navy;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Header information ends */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Hero information */
+.work {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.about-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.challenges {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.challenges h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.projects h2 {
+    margin-top:20px
+    margin-bottom: 20px;
+    font-size: 36px;
+}
